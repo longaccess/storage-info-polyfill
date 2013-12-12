@@ -1,0 +1,26 @@
+{
+  "name": "storage-info-polyfill",
+  "version": "0.0.1",
+  "homepage": "https:/github.com/longaccess/storage-info-polyfill.git",
+  "authors": [
+    "Konstantinos Koukopoulos <kk@longaccess.com>"
+  ],
+  "description": "A small polyfill to make it appear as if the browser supports webkitStorageInfo",
+  "main": "src/storage-info-polyfill.js",
+  "keywords": [
+    "polyfill",
+    "quota",
+    "webkitStorageInfo"
+  ],
+  "license": "Apache",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "custom-dom-exception": "~0.0.1"
+  }
+}
